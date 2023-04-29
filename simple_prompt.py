@@ -2,8 +2,6 @@ import streamlit as st
 
 template = """
 
-I want to learn {topic}. Please use the below template to design the lesson.
-
 Stage 1 (Absorption): Prompts to get basic understanding and spark curiosity
  - Can you explain {topic} to a 10 year old?
  - Give 2 questions which will make me curious about {topic} \n
@@ -26,4 +24,5 @@ if topic_name:
     Here are your prompts:
     {answer}
     """)
+
 
