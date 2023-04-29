@@ -14,7 +14,7 @@ Stage 3 (Re-expression): Prompts that enable practice/self-assessment
 
 """
 
-st.title("Generate prompts for to learn a new topic!")
+st.title("Generate prompts to learn a new topic!")
 
 topic_name = st.text_input("Which topic do you want to learn?")
 
